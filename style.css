@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background: fixed;
+    background-image: url("2.jpg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    height: 1200px;
+    width: 135px;
+    margin: auto;
+}
+
+
+  .main
+        {
+            width: 100%;
+            height: 109vh;
+
+        }
+
+.icon{
+
+    /* height: 100px; */
+    width: 100px;
+    /* float: right; */
+    margin-right: 600px;
+    text-align: center;
+}
+
+
+.logo {
+    color: #f1f1e6;
+    font-size: 30px;
+    float: left;
+    padding-top: 10px;
+    cursor: pointer;
+    font-family: "Algerian";
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+.menu{
+    width: 70px;
+    margin: auto;
+    float: left;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: -100px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: Arial;
+    color: rgb(240, 245, 241);
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+ul li a:hover{
+    color: rgb(3, 36, 36);
+}
+
+
+
+
+
+.search {
+    display: inline-block;
+    float: left;
+    margin-left: 400px;
+    margin-top: -130px;
+    width: 430px;
+}
+    
+.srch {
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    background: transparent;
+    border: 3px solid rgb(77, 34, 235);
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+
+
+
+        .btn {
+            width: 100px;
+            height: 40px;
+            background:blueviolet;
+            border: 2px solid rgb(163, 231, 220);
+            margin-top: 3px;
+            color: #073b5e;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            
+    
+        }
+
+            .btn:focus{
+                    outline: none;
+                }
+            .srch:focus{
+                outline: none;
+            }
+
+
+            .search.btn a{
+                text-decoration: none;
+                color: rgb(13, 48, 201);
+                transition: .3s ease;
+
+
+            }
+
+            .btn:hover{
+                background-color: antiquewhite;
+            }
+
+
+            .content{
+                width: 1200px; 
+                height: 1500px;
+                color: rgb(240, 248, 248);
+                position: absolute;
+                margin-top: 100px;
+                margin-left: -150px;
+            }
+
+            .content h1 {
+                font-family: arial;
+                font-size: 30px;
+                padding-left: 20px;
+                margin-top: 9%;
+                letter-spacing: 2px;
+                margin-left: -450px;
+            }
+            
+
+            .content .par {
+                padding-left: 50px;
+                font-family: 'Times New Roman';
+                letter-spacing: 2px;
+                line-height: 15px;
+                font-size: 17px;
+                color: rgb(242, 245, 248);
+                margin-left: -480px;
+                margin-top: 10px;
+            }
+
+        
+        
+
+
+    
+    .content .cn {
+        width: 160px;
+        height: 40px;
+        background: rgb(19, 151, 7);
+        border: none;
+        margin-top: 40px;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .3s ease;
+    }
+
+                    .content .cn a{
+                        text-decoration: none;
+                        color: rgb(44, 35, 6);
+                        transition: .3s ease;
+
+
+                    }
+
+                    .cn:hover{
+                        background-color: antiquewhite;
+                    }
+
+                
+                
+                .content span {
+                    color: rgb(240, 234, 228);
+                    font-size: 40px;
+                    /* margin-right: -16px; */
+                    margin-left: -2px;
+                }
+
+
+            
+            
+            
+            .form {
+                width: 218px;
+                height: 380px;
+                background: linear-gradient(to top,rgba(114, 143, 230, 0.8)50%, rgba(114, 143, 230, 0.8)50%);
+                position: absolute;
+                top: 170px;
+                right: 60px;
+                border-radius: 30px;
+                padding: 35px;
+                /* margin-bottom: 5px; */
+                margin-top: 5px;
+            }
+.form h2{
+    width: 200px;
+    height: 35px;
+    font-family: arial;
+    text-align: center;
+    color: rgb(8, 100, 136);
+    font-size: 23px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 3px;
+    padding:8px ;
+    margin-left: -1px;
+    border: 2px solid rgb(32, 19, 223);
+}
+
+
+.form input {
+    margin-top: 20px;
+    width: 200px;
+    height: 20px;
+    background: transparent;
+    font-weight: bold;
+     font-size: 15px; 
+     border-top: none; 
+     border: 2px solid blue;
+    border-bottom: 2px solid rgb(19, 3, 65);
+    color: rgb(199, 233, 217);
+    font-family: arial;
+    letter-spacing: 1px;
+    padding: 10px;
+   
+    
+}
+
+.form button{
+    font-size: 17px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-top: 5px;
+}
+
+.form .button a{
+    text-decoration: none;
+    color: rgb(87, 147, 236);
+    transition: .4s ease;
+
+
+}
+
+.button:hover{
+    background-color: rgb(159, 212, 233);
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+
+.form .link a{
+    text-decoration: none;
+    color: rgb(128, 51, 7);
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+ .icons ion-icon{
+    color: blanchedalmond;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px ;
+    transition: 0.3s ease;
+ }
+
+
+  .icons ion-icon:hover{
+    color: rgb(179, 219, 67);
+  }
